@@ -406,7 +406,6 @@ option {
 ------------------------------------*/
 .hero-area {
     position: relative;
-    /* background-image: url('../img/hero-area.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -731,7 +730,6 @@ hr {
 --------- footer AREA CSS START --------
 -----------------------------------*/
 .footer {
-	/* background: url('../img/footer-bg.png') no-repeat bottom center / cover; */
     position: relative;
 	padding: 90px 0 30px;
 }
@@ -783,7 +781,6 @@ hr {
 ------------------------------------*/
 .breadcrumb-area {
     position: relative;
-    /* background-image: url('../img/breadcrumb.png'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
