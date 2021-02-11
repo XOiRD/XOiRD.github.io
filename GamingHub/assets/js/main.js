@@ -158,7 +158,19 @@
         filter: selector
       })
     });
-	
+
+
+	jQuery(".portfolio-item").isotope();
+    $(".portfolio-menu li").on("load", function(){
+      $(".portfolio-menu li").removeClass("active");
+      $(this).addClass("active");
+      var selector = $(this).attr('data-filter');
+      $(".portfolio-item").isotope({
+        filter: selector
+      })
+    });
+
+
 	/*----------------------------
     START - Preloader
     ------------------------------ */
