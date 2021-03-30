@@ -149,28 +149,28 @@
 	/*----------------------------
     START - Isotope
     ------------------------------ */
-    // jQuery(".portfolio-item").isotope();
-    // $(".portfolio-menu li").on("click", function(){
-    //   $(".portfolio-menu li").removeClass("active");
-    //   $(this).addClass("active");
-    //   var selector = $(this).attr('data-filter');
-    //   $(".portfolio-item").isotope({
-    //     filter: selector ,
-	// 	layoutMode:'fitRows'
-    //   })
-    // });
+    jQuery(".portfolio-item").isotope();
+    $(".portfolio-menu li").on("click", function(){
+      $(".portfolio-menu li").removeClass("active");
+      $(this).addClass("active");
+      var selector = $(this).attr('data-filter');
+      $(".portfolio-item").isotope({
+        filter: selector ,
+		layoutMode:'vertocal'
+      })
+    });
 
 
-	// jQuery(".portfolio-item").isotope();
-    // $(".portfolio-menu li").on("load", function(){
-    //   $(".portfolio-menu li").removeClass("active");
-    //   $(this).addClass("active");
-    //   var selector = $(this).attr('data-filter');
-    //   $(".portfolio-item").isotope({
-    //     filter: selector ,
-	// 	layoutMode:'vertical'
-    //   })
-    // });
+	jQuery(".portfolio-item").isotope();
+    $(".portfolio-menu li").on("load", function(){
+      $(".portfolio-menu li").removeClass("active");
+      $(this).addClass("active");
+      var selector = $(this).attr('data-filter');
+      $(".portfolio-item").isotope({
+        filter: selector ,
+		layoutMode:'vertical'
+      })
+    });
 
 	// var $rowItems = $('.row portfolio-item').isotope({
 	// 	itemSelector: '.element-item' , layoutMode: 'fitRows'
