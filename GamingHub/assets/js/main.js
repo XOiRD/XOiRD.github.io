@@ -149,28 +149,38 @@
 	/*----------------------------
     START - Isotope
     ------------------------------ */
-    jQuery(".portfolio-item").isotope();
-    $(".portfolio-menu li").on("click", function(){
-      $(".portfolio-menu li").removeClass("active");
-      $(this).addClass("active");
-      var selector = $(this).attr('data-filter');
-      $(".portfolio-item").isotope({
-        filter: selector
-      })
-    });
+    // jQuery(".portfolio-item").isotope();
+    // $(".portfolio-menu li").on("click", function(){
+    //   $(".portfolio-menu li").removeClass("active");
+    //   $(this).addClass("active");
+    //   var selector = $(this).attr('data-filter');
+    //   $(".portfolio-item").isotope({
+    //     filter: selector ,
+	// 	layoutMode:'fitRows'
+    //   })
+    // });
 
 
-	jQuery(".portfolio-item").isotope();
-    $(".portfolio-menu li").on("load", function(){
-      $(".portfolio-menu li").removeClass("active");
-      $(this).addClass("active");
-      var selector = $(this).attr('data-filter');
-      $(".portfolio-item").isotope({
-        filter: selector
-      })
-    });
+	// jQuery(".portfolio-item").isotope();
+    // $(".portfolio-menu li").on("load", function(){
+    //   $(".portfolio-menu li").removeClass("active");
+    //   $(this).addClass("active");
+    //   var selector = $(this).attr('data-filter');
+    //   $(".portfolio-item").isotope({
+    //     filter: selector ,
+	// 	layoutMode:'vertical'
+    //   })
+    // });
 
+	// var $rowItems = $('.row portfolio-item').isotope({
+	// 	itemSelector: '.element-item' , layoutMode: 'fitRows'
+	// });
+	
 
+	// jQuery(".row portfolio-menu").on("load", function(){
+	// 	var rowPortfolioMenu = $('.row portfolio-menu');
+	// 	rowPortfolioMenu.height = 400
+	// })
 	/*----------------------------
     START - Preloader
     ------------------------------ */
