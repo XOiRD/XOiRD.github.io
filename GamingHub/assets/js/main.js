@@ -156,7 +156,7 @@
       var selector = $(this).attr('data-filter');
       $(".portfolio-item").isotope({
         filter: selector ,
-		layoutMode:'masonry'
+		layoutMode:'fitRows'
       })
     });
 
@@ -168,7 +168,7 @@
       var selector = $(this).attr('data-filter');
       $(".portfolio-item").isotope({
         filter: selector ,
-		layoutMode:'masonry'
+		layoutMode:'fitRows'
       })
     });
 
